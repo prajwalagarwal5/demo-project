@@ -1,0 +1,52 @@
+<div class="head">
+    <h2>Pricing</h2>
+    <h6>Start as per your needs</h6>
+    <mat-label [ngClass]="{'selected':!useDefault}">Monthly&nbsp;</mat-label>
+    <mat-slide-toggle [checked]="useDefault" (change)="toggle($event)"></mat-slide-toggle>
+    <mat-label [ngClass]="{'selected':useDefault}">&nbsp;Annual</mat-label>
+    <h6>All the prices are excluding all the applicable taxes</h6>
+</div>
+<div class="row">
+    <div class="col-md-4" *ngFor="let item of details">
+        <mat-card>
+            <mat-chip-list class="mat_chip_list">
+                <mat-chip *ngIf="item.type==='Pro'" class="pro-chip" >{{item.type}}</mat-chip>
+                <ng-container>
+                    <mat-chip *ngIf="item.type!=='Pro'">{{item.type}}</mat-chip>
+                    <div *ngIf="item.type==='Starter'" class="mat-chip-starter">Recommended</div>
+                </ng-container>
+            </mat-chip-list>
+            <mat-card-header>
+                <mat-card-title>
+                    <ng-container *ngIf="item.price==='FREE'" class="price">{{item.price}}
+                        <div class="sub-text">{{item.subText}}</div>
+                    </ng-container>
+                    <ng-container *ngIf="item.price!=='FREE'" class="price">{{item.price | currency:"&#x20B9;" : symbol
+                        : '1.0-0'}}
+                        <div class="sub-text">{{item.subText}}</div>
+                    </ng-container>
+                </mat-card-title>
+                <mat-card-subtitle>{{item.caption}}</mat-card-subtitle>
+            </mat-card-header>
+            <hr>
+            <mat-card-content>
+                <mat-list>
+                    <ng-container *ngFor="let feature of item.features">
+                        <mat-list-item>
+                            <mat-icon>check_circle_outline</mat-icon>{{feature.name}}
+                        </mat-list-item>
+                        <mat-list style="margin-left:30px;">
+                            <div *ngFor="let subFeature of feature.subFeatures">
+                                <mat-list-item>- <label style="margin-left:30px;">{{ subFeature.name }}</label>
+                                </mat-list-item>
+                            </div>
+                        </mat-list>
+                    </ng-container>
+                </mat-list>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button class="pay-now" mat-raised-button>Pay Now</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

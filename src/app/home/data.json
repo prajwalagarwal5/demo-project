@@ -1,0 +1,366 @@
+{
+    "annual": [
+        {
+            "type": "Basic",
+            "price": "FREE",
+            "color": "blue",
+            "subText": "/student/annum",
+            "caption": "Access to limited features for limited users",
+            "features": [
+                {
+                    "name": " 50 users for free ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create 3 free classes ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Unlimited Assessments ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Limited Question type ",
+                    "subfeatures": [
+                        {
+                            "name": " Single answer MCQ "
+                        },
+                        {
+                            "name": " True & False questions "
+                        }
+                    ]
+                },
+                {
+                    "name": " Basic performance analysis ",
+                    "subfeatures": []
+                }
+            ]
+        },
+        {
+            "type": "Starter",
+            "price": "300",
+            "color": "blue",
+            "subText": "/student/annum",
+            "caption": "Access to all tech features for all purchased users",
+            "features": [
+                {
+                    "name": " Add unlimited users (minimum 50) ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create unlimited classes ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create unlimited assessments ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Limited Question type ",
+                    "subfeatures": [
+                        {
+                            "name": " Single answer MCQ "
+                        },
+                        {
+                            "name": " True & false questions "
+                        },
+                        {
+                            "name": " Fill in the Blank "
+                        },
+                        {
+                            "name": " Multiple answers MCQ "
+                        },
+                        {
+                            "name": " Integer scale "
+                        },
+                        {
+                            "name": " Descriptive answer questions "
+                        }
+                    ]
+                },
+                {
+                    "name": " Advance performance analysis ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create question bank ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Personalize assessments ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Share unlimited videos ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Share unlimited notes & documents ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " 10 GB Free storage ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Unlimited Live classes ",
+                    "subfeatures": []
+                }
+            ]
+        },
+        {
+            "type": "Pro",
+            "price": "2000",
+            "color": "yellow",
+            "subText": "/student/annum",
+            "caption": "Access to all tech features (tech + contest) for all purchased users",
+            "features": [
+                {
+                    "name": " Add unlimited users (minimum 50) ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create unlimited classes ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create unlimited assessments ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Limited Question type ",
+                    "subfeatures": [
+                        {
+                            "name": " Single answer MCQ "
+                        },
+                        {
+                            "name": " True & false questions "
+                        },
+                        {
+                            "name": " Fill in the Blank "
+                        },
+                        {
+                            "name": " Multiple answers MCQ "
+                        },
+                        {
+                            "name": " Integer scale "
+                        },
+                        {
+                            "name": " Descriptive answer questions "
+                        }
+                    ]
+                },
+                {
+                    "name": " Advance performance analysis ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create question bank ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Personalize assessments (on one click) ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Share unlimited videos ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Share unlimited notes & documents ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " 10 GB Free storage ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Unlimited Live classes ",
+                    "subfeatures": []
+                }
+            ]
+        }
+    ],
+    "monthly": [
+        {
+            "type": "Basic",
+            "price": "FREE",
+            "color": "blue",
+            "subText": "/student/month",
+            "caption": "Access to limited features for limited users",
+            "features": [
+                {
+                    "name": " 50 users for free ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create 3 free classes ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Unlimited Assessments ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Limited Question type ",
+                    "subfeatures": [
+                        {
+                            "name": " Single answer MCQ "
+                        },
+                        {
+                            "name": " True & False questions "
+                        }
+                    ]
+                },
+                {
+                    "name": " Basic performance analysis ",
+                    "subfeatures": []
+                }
+            ]
+        },
+        {
+            "type": "Starter",
+            "price": "25",
+            "color": "blue",
+            "subText": "/student/month",
+            "caption": "Access to all tech features for all purchased users",
+            "features": [
+                {
+                    "name": " Add unlimited users (minimum 50) ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create unlimited classes ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create unlimited assessments ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Limited Question type ",
+                    "subfeatures": [
+                        {
+                            "name": " Single answer MCQ "
+                        },
+                        {
+                            "name": " True & false questions "
+                        },
+                        {
+                            "name": " Fill in the Blank "
+                        },
+                        {
+                            "name": " Multiple answers MCQ "
+                        },
+                        {
+                            "name": " Integer scale "
+                        },
+                        {
+                            "name": " Descriptive answer questions "
+                        }
+                    ]
+                },
+                {
+                    "name": " Advance performance analysis ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create question bank ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Personalize assessments ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Share unlimited videos ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Share unlimited notes & documents ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " 10 GB Free storage ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Unlimited Live classes ",
+                    "subfeatures": []
+                }
+            ]
+        },
+        {
+            "type": "Pro",
+            "price": "170",
+            "color": "blue",
+            "subText": "/student/month",
+            "caption": "Access to all tech features (tech + contest) for all purchased users",
+            "features": [
+                {
+                    "name": " Add unlimited users (minimum 50) ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create unlimited classes ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create unlimited assessments ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Limited Question type ",
+                    "subfeatures": [
+                        {
+                            "name": " Single answer MCQ "
+                        },
+                        {
+                            "name": " True & false questions "
+                        },
+                        {
+                            "name": " Fill in the Blank "
+                        },
+                        {
+                            "name": " Multiple answers MCQ "
+                        },
+                        {
+                            "name": " Integer scale "
+                        },
+                        {
+                            "name": " Descriptive answer questions "
+                        }
+                    ]
+                },
+                {
+                    "name": " Advance performance analysis ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Create question bank ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Personalize assessments (on one click) ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Share unlimited videos ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Share unlimited notes & documents ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " 10 GB Free storage ",
+                    "subfeatures": []
+                },
+                {
+                    "name": " Unlimited Live classes ",
+                    "subfeatures": []
+                }
+            ]
+        }
+    ]
+}

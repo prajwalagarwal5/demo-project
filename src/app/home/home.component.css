@@ -1,0 +1,139 @@
+/* .example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+   */
+
+.head {
+  text-align: center;
+}
+
+h2 {
+  margin-block-start: 5px;
+  margin-block-end: 0px;
+  color: darkblue;
+}
+
+h6 {
+  margin-block-start: 0px;
+  margin-block-end: -1px;
+  color: grey;
+  font-size: 17px;
+}
+
+:host
+  ::ng-deep
+  .mat-slide-toggle.mat-checked:not(.mat-disabled)
+  .mat-slide-toggle-bar {
+  background-color: darkblue;
+}
+
+:host
+  ::ng-deep
+  .mat-slide-toggle.mat-checked:not(.mat-disabled)
+  .mat-slide-toggle-thumb {
+  background-color: darkblue;
+}
+
+.row {
+  margin: 2px;
+}
+.col-md-4 {
+  padding: 16px;
+}
+.selected {
+  color: blue;
+}
+.mat-card {
+  border-radius: 30px !important;
+  height: 100%;
+  width: 100%;
+  display: inline-table;
+}
+.mat-chip{
+  background-color: lavender;
+  color: darkblue;
+  margin-bottom: 9px;
+  width: 70px;
+  justify-content: center;
+}
+hr {
+  margin-block-start: -9px;
+  margin-block-end: 9px;
+}
+.mat-icon {
+  color: green;
+  width: 35px;
+  height: 0px;
+  font-size: 17px;
+}
+.material-icons {
+  line-height: 0px;
+}
+p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.mat-list-base .mat-list-item,
+.mat-list-base .mat-list-option {
+  height: auto;
+  font-size: 11px;
+}
+.mat-list-base {
+  padding-top: 1px;
+}
+
+.mat-card-actions,
+.mat-card-content,
+.mat-card-subtitle {
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+
+.mat-card-content {
+  height: 47%;
+}
+
+.mat-card-header .mat-card-title {
+  color: darkblue;
+  font-size: xx-large;
+  display: inline-flex;
+}
+
+.sub-text {
+  font-size: x-small;
+  margin-block-start: 27px;
+  margin-left: 6px;
+}
+
+.pay-now {
+  margin-left: 12% !important;
+  width: 76%;
+}
+/* .mat-card-content{
+  height: 60%;
+} */
+mat-card:hover {
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.mat-button:hover {
+  color: white;
+  background: darkblue;
+}
+.pro-chip{
+  background-color: #fabb00 ;
+}
+.mat-chip-starter {
+  color: grey;
+  font-size: x-small;
+}
+.price {
+  font-size: 200px;
+}
